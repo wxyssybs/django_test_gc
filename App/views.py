@@ -9,7 +9,6 @@ from App.signals.handlers import my_signal
 
 def home(request):
     # my_signal.send(home, name='gc')
-    a = 1/0
     return JsonResponse({
         "message": "请求成功",
         "data": [
